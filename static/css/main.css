@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(40, 43, 40);
+  width : 99.9%
+
+}
+
+
+
+header {
+  padding: 5.0px; 
+}
+header img {
+  height: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 5;
+  padding: 5;
+  display: flex;
+}
+
+header nav li {
+  margin-right: 1em;
+}
+
+header nav li:last-child {
+  margin-right: 10;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background-color: lightblue;
+  font-family: 'Times New Roman', sans-serif;
+  bottom: 0;
+  width : 100%
+}
+
+.footer h3 {
+  margin-top: 10;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer li {
+  margin-bottom: .5em;
+}
+
+.footer li:last-child {
+  margin-bottom: 0;
+}
+
+.footer i {
+  font-size: 20px;
+}
+
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #bd7d64;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #dd884f;
+  
+}
+
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #ff0000;
+}
+
+a:hover {
+  color: #ff2f2f;
+
+}
+
+body {
+  font-size: 15px;
+  font-family:'Times New Roman', sans-serif;
+  
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 18px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #d0e6f3;
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #975a52;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #bb836d;
+  font-family: "'Times New Roman'";
+}
+
+
+body {
+  min-height: 100vh;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+

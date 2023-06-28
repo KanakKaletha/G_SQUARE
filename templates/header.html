@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>G-Square Assignment</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  </head>
+  <body>
+    <header>
+      <img src="{% static 'img/gsquare_icon.png' %}" alt="Icon">
+      <nav>
+        <ul>
+          <li><a href="{% url 'stock_view' %}">Home</a></li>
+          <li><a href="{% url 'chart_view' %}">Chart</a></li>
+        </ul>
+      </nav>
+    </header>       
+    <main>     
+        
+    </main>
+  </body>
+</html>
